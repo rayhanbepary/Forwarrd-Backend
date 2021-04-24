@@ -18,6 +18,7 @@ app.use('/api/admins', require('./routes/admin'));
 app.use('/api/collectors', require('./routes/collector'));
 app.use('/api/deposits', require('./routes/deposit'));
 app.use('/api/withdraws', require('./routes/withdraw'));
+app.use('/api/counter', require('./routes/counter'));
 
 
 
